@@ -1,0 +1,161 @@
+:root {
+    --dark-color: #19283f;
+    color: white !important;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+.rounded-pill {
+    border-radius: 50rem !important;
+}
+/*****navbar********/
+.navbar {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--green-color);
+}
+
+.navbar .search {
+    border-left: 2px solid var(--green-color);
+}
+
+.navbar .search svg {
+    color: var(--green-color);
+}
+
+.navbar .navbar-toggler {
+    color: white;
+    border-color: white;
+    font-size: 25px;
+}
+
+/****************  landing****/
+
+.landing {
+    background-color: var(--dark-color);
+    min-height: 90vh;
+}
+
+.main-btn {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+
+}
+
+.main_title::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    position: absolute;
+    background-color: var(--green-color);
+    transform: translatex(-50%);
+    bottom: -20px;
+    left: 50%;
+}
+
+/******* feuture**********/
+.feuture .icon-holder {
+    height: 200px;
+}
+
+.feuture .icon-holder svg {
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.feuture .icon-holder .number {
+    font-size: 12rem;
+    color: var(--section-color);
+}
+
+.feuture .icon-holder .icon {
+
+    color: var(--green-color);
+}
+
+.feuture .feat h4 {
+    color: var(--yellow-color);
+}
+/*******our-work****************************/
+.our-work {
+    background-color: var(--section-color);
+
+}
+
+.our-work ul .active {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+}
+
+.our-work ul li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.our-work ul li:not(.active):hover {
+    color: var(--red-color);
+}
+/****/
+.stuff .description{
+    max-width: 500px;
+}
+.img_design {
+    width: 35rem;
+    height:auto ;
+}
+
+
+/***** team******/
+
+.team{
+background-color: var(--section-color);
+}
+
+.team .h2{
+    background-color: var(--yellow-color);
+}
+.team .box h4{
+background-color: var(--green-color);
+}
+
+
+/*********project*********/
+.project {
+background-color: var(--dark-color);
+}
+
+
+/******** footer****/
+.footer{
+    background-color: var(--dark-color);
+}
+.footer .copyright > span{
+  color: var(--green-color);
+}
+.footer .copyright div span{
+  color: var(--yellow-color);
+}
+.footer .contact ul svg{
+    width: 20px;
+    height: 20px;
+}
+
